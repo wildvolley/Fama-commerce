@@ -60,7 +60,7 @@
             		<span class="flaticon-diet"></span>
               </div>
               <div class="media-body">
-                <h3 class="heading">Always Fresh</h3>
+                <h3 class="heading">Toujours frais</h3>
                 <span>Product well package</span>
               </div>
             </div>    
@@ -100,8 +100,8 @@
 								<div class="category-wrap-2 ftco-animate img align-self-stretch d-flex" style="background-image: url(frontend/images/category.jpg);">
 									<div class="text text-center">
 										<h2>Meilleurs choix</h2>
-										<p>La Qualité, une Exigence..!</p>
-										<p><a href="#" class="btn btn-primary">Maganisez maintenant</a></p>
+										<p>La Qualité, une exigence..!</p>
+										<p><a href="#" class="btn btn-primary">Magasinez maintenant</a></p>
 									</div>
 								</div>
 							</div>
@@ -384,8 +384,8 @@
     	<div class="container">
 				<div class="row justify-content-end">
           <div class="col-md-6 heading-section ftco-animate deal-of-the-day ftco-animate">
-          	<span class="subheading">Best Price For You</span>
-            <h2 class="mb-4">Deal of the day</h2>
+          	<span class="subheading">Meilleur prix pour vous</span>
+            <h2 class="mb-4">L'aubaine du jour</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             <h3><a href="#">Spinach</a></h3>
             <span class="price">$10 <a href="#">now $5 only</a></span>
@@ -404,9 +404,9 @@
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
-          	<span class="subheading">Testimony</span>
-            <h2 class="mb-4">Our satisfied customer says</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+          	<span class="subheading">Témoignages</span>
+            <h2 class="mb-4">Notre client satisfait:</h2>
+            <p>Un grand choix d'articles de bonne qualité à prix raisonnable, et un service exceptionnel</p>
           </div>
         </div>
         <div class="row ftco-animate">
@@ -422,7 +422,7 @@
                   <div class="text text-center">
                     <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <p class="name">Garreth Smith</p>
-                    <span class="position">Marketing Manager</span>
+                    <span class="position">Directeur de Marketing</span>
                   </div>
                 </div>
               </div>

@@ -91,8 +91,8 @@
                   John Pierce
                   <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
                 </h3>
-                <p class="text-sm">I got your message bro</p>
-                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                <p class="text-sm">J'ai reçu ton message</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> Il y a 4 heures</p>
               </div>
             </div>
             <!-- Message End -->
@@ -108,13 +108,13 @@
                   <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
                 </h3>
                 <p class="text-sm">The subject goes here</p>
-                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> Il y a 4 heures</p>
               </div>
             </div>
             <!-- Message End -->
           </a>
           <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+          <a href="#" class="dropdown-item dropdown-footer">Voir tous les messages</a>
         </div>
       </li>
       <!-- Notifications Dropdown Menu -->
@@ -127,21 +127,21 @@
           <span class="dropdown-item dropdown-header">15 Notifications</span>
           <div class="dropdown-divider"></div>
           <a href="#" class="dropdown-item">
-            <i class="fas fa-envelope mr-2"></i> 4 new messages
+            <i class="fas fa-envelope mr-2"></i>4 nouveaux messages
             <span class="float-right text-muted text-sm">3 mins</span>
           </a>
           <div class="dropdown-divider"></div>
           <a href="#" class="dropdown-item">
-            <i class="fas fa-users mr-2"></i> 8 friend requests
-            <span class="float-right text-muted text-sm">12 hours</span>
+            <i class="fas fa-users mr-2"></i> 8 demandes d'amis
+            <span class="float-right text-muted text-sm">12 heures</span>
           </a>
           <div class="dropdown-divider"></div>
           <a href="#" class="dropdown-item">
-            <i class="fas fa-file mr-2"></i> 3 new reports
-            <span class="float-right text-muted text-sm">2 days</span>
+            <i class="fas fa-file mr-2"></i> 3 nouveaux rapports
+            <span class="float-right text-muted text-sm">2 jours</span>
           </a>
           <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+          <a href="#" class="dropdown-item dropdown-footer">Voir toutes les notifications</a>
         </div>
       </li>
       <li class="nav-item">
@@ -159,7 +159,7 @@
     <a href="index3.html" class="brand-link">
       <img src="backend/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">Administateur</span>
+      <span class="brand-text font-weight-light">Administrateur</span>
     </a>
 
     <!-- Sidebar -->
@@ -183,7 +183,7 @@
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Dashboard
+                Tableau de bord
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -201,7 +201,7 @@
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Widgets
-                <span class="right badge badge-danger">New</span>
+                <span class="right badge badge-danger">Nouveau</span>
               </p>
             </a>
           </li>
@@ -219,7 +219,7 @@
               <li class="nav-item">
                 <a href="backend/pages/UI/sliders.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Ajouter catégorie</p>
+                  <p>Ajouter une catégorie</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -326,7 +326,7 @@
             <a href="backend/pages/gallery.html" class="nav-link">
               <i class="nav-icon far fa-image"></i>
               <p>
-                Gallery
+                Gallerie
               </p>
             </a>
           </li>
@@ -334,7 +334,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon far fa-envelope"></i>
               <p>
-                Mailbox
+                Courriel
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -342,19 +342,19 @@
               <li class="nav-item">
                 <a href="backend/pages/mailbox/mailbox.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Inbox</p>
+                  <p>Messages reçus</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="backend/pages/mailbox/compose.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Compose</p>
+                  <p>Composer</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="backend/pages/mailbox/read-mail.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Read</p>
+                  <p>Lire</p>
                 </a>
               </li>
             </ul>
@@ -371,13 +371,13 @@
               <li class="nav-item">
                 <a href="backend/pages/examples/invoice.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Invoice</p>
+                  <p>Facture</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="backend/pages/examples/profile.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Profile</p>
+                  <p>Profil</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -389,25 +389,25 @@
               <li class="nav-item">
                 <a href="backend/pages/examples/projects.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Projects</p>
+                  <p>Projets</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="backend/pages/examples/project-add.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Project Add</p>
+                  <p>Ajouter un Projet</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="backend/pages/examples/project-edit.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Project Edit</p>
+                  <p>Modifier un projet</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="backend/pages/examples/project-detail.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Project Detail</p>
+                  <p>Detail du Projet</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -430,31 +430,31 @@
               <li class="nav-item">
                 <a href="backend/pages/examples/login.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Login</p>
+                  <p>Connexion</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="backend/pages/examples/register.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Register</p>
+                  <p>Enregistrez-vous</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="backend/pages/examples/forgot-password.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Forgot Password</p>
+                  <p>Mot de passe oublié?</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="backend/pages/examples/recover-password.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Recover Password</p>
+                  <p>Récuperer votre mot de passe</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="backend/pages/examples/lockscreen.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Lockscreen</p>
+                  <p>Ecran de verrouillage</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -472,13 +472,13 @@
               <li class="nav-item">
                 <a href="backend/pages/examples/404.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Error 404</p>
+                  <p>Erreur 404</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="backend/pages/examples/500.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Error 500</p>
+                  <p>Erreur 500</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -490,18 +490,18 @@
               <li class="nav-item">
                 <a href="backend/pages/examples/blank.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Blank Page</p>
+                  <p>Page vide</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="starter.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Starter Page</p>
+                  <p>Page de démarrage</p>
                 </a>
               </li>
             </ul>
           </li>
-          <li class="nav-header">MISCELLANEOUS</li>
+          <li class="nav-header">Divers</li>
           <li class="nav-item">
             <a href="https://adminlte.io/docs/3.0" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
@@ -525,7 +525,7 @@
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Accueil</a></li>
               <li class="breadcrumb-item active">Dashboard v1</li>
             </ol>
           </div><!-- /.col -->
@@ -545,7 +545,7 @@
               <div class="inner">
                 <h3>150</h3>
 
-                <p>New Orders</p>
+                <p>Nouvelles commandes</p>
               </div>
               <div class="icon">
                 <i class="ion ion-bag"></i>
@@ -575,7 +575,7 @@
               <div class="inner">
                 <h3>44</h3>
 
-                <p>User Registrations</p>
+                <p>Enregistreent des utilisateurs</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
@@ -590,7 +590,7 @@
               <div class="inner">
                 <h3>65</h3>
 
-                <p>Unique Visitors</p>
+                <p>Visiteurs uniques</p>
               </div>
               <div class="icon">
                 <i class="ion ion-pie-graph"></i>

@@ -152,7 +152,7 @@
                                                               <div class="radio">
                                                                  <label><input type="radio" name="optradio" class="mr-2"> Paypal</label>
                                                               </div>
-                                                          </div>
+                                                       </div>
                                                       </div>
                                                       <div class="form-group">
                                                           <div class="col-md-12">

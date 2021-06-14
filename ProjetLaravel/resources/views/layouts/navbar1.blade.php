@@ -33,10 +33,10 @@
           <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
           <div class="dropdown-menu" aria-labelledby="dropdown04">
               <a class="dropdown-item" href={{URL::to('/shop')}}>Magasin</a> 
-              <a class="dropdown-item" href="wishlist.html">Wishlist</a>
-            <a class="dropdown-item" href="product-single.html">Single Product</a>
-            <a class="dropdown-item" href={{URL::to('/panier')}}>Cart</a>
-            <a class="dropdown-item" href={{URL::to('/paiement')}}>Checkout</a>
+              <a class="dropdown-item" href="wishlist.html">Liste de souhaits</a>
+            <a class="dropdown-item" href="product-single.html">Produit unique</a>
+            <a class="dropdown-item" href={{URL::to('/panier')}}>Panier</a>
+            <a class="dropdown-item" href={{URL::to('/paiement')}}>Passer à la caisse</a>
           </div>
         </li>
           <li class="nav-item"><a href={{URL::to('/blog')}} class="nav-link">Blog</a></li>
