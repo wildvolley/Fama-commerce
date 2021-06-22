@@ -1,7 +1,7 @@
 @extends('layouts.app1')
 
 @section('title')
-    Me connecter
+    Inscription
 @endsection
 
 @section('contenu')
@@ -32,22 +32,26 @@
 
 @endsection
 
+
+   
+
+
 <div class="limiter">
     <div class="container-login100">
         <div class="wrap-login100">
-            <form action="{{url('/connexion_client')}}" method="post" class="login100-form validate-form p-l-55 p-r-55 p-t-178" >
+            <form class="login100-form validate-form p-l-55 p-r-55 p-t-178"  action="{{url('/insertion_client')}}" method="post">
                 {{csrf_field()}}
+
                 <span class="login100-form-title">
-                    Connexion
+                    Inscription
                 </span>
 
-
-<!----------------------------- Messages d'erreur---->
-@if(Session::has('status'))
-<div class="alert alert-danger">   
+<!----------------------------- Messages de succès---->
+@if(Session::has('succes'))
+<div class="alert alert-success">   
     
-    {{Session::get('status')}} 
-    {{Session::put('status', null)}} 
+    {{Session::get('succes')}} 
+    {{Session::put('succes', null)}} 
 </div>  
 @endif
 <!--------------- Validation des champs obligatoires---->
@@ -62,27 +66,23 @@
 @endif
 <!--------------- Fin  Validation des champs obligatoires---->
 
-
-
-
-
-
-
-
-
-
-
-
-
+                <div class="wrap-input100 validate-input m-b-16" data-validate="Entrer un nom d'utilisateur">
+                    <input class="input100" type="text" name="username" placeholder="Nom d'utilisateur" value={{old('username')}}>
+                    <span class="focus-input100"></span>
+                </div>
+                @if($errors->has('username'))
+                <p style="color:red">{{$errors->first('username')}}</p>
+                @endif
+                
                 <div class="wrap-input100 validate-input m-b-16" data-validate="Entrez un email s'il vous plait.">
-                    <input class="input100" type="email" name="courriel" placeholder="Email" value={{old('email')}} >
+                    <input class="input100" type="email" name="courriel" placeholder="Email" value={{old('courriel')}} >
                     <span class="focus-input100"></span>
                 </div>
                 @if($errors->has('courriel'))
                 <p style="color:red">{{$errors->first('courriel')}}</p>
                 @endif
 
-                <div class="wrap-input100 validate-input m-b-16" data-validate="Entrez un mot de passe">
+                <div class="wrap-input100 validate-input m-b-16" data-validate="Définir un mot de passe">
                     <input class="input100" type="password" name="password" placeholder="Mot de passe">
                     <span class="focus-input100"></span>
                 </div>
@@ -90,6 +90,13 @@
                 <p style="color:red">{{$errors->first('password')}}</p>
                 @endif
 
+                <div class="wrap-input100 validate-input" data-validate = "Confirmer le mot de passe">
+                    <input class="input100" type="password" name="password_confirmation" placeholder="Confirmation mot de passe">
+                    <span class="focus-input100"></span>
+                </div><br/>
+                @if($errors->has('password_confirmation'))
+                <p style="color:red">{{$errors->first('password_confirmation')}}</p>
+                @endif
                 
 
 
@@ -99,23 +106,23 @@
                     </span>
 
                     <a href="#" class="txt2">
-                        Nom d'utilisateur / Mot de passe?
+                        Courriel / Mot de passe?
                     </a>
                 </div>
 
                 <div class="container-login100-form-btn">
                     <button class="login100-form-btn">
-                        Se connecter
+                        S'inscrire
                     </button>
                 </div>
 
                 <div class="flex-col-c p-t-80 p-b-40">
                     <span class="txt1 p-b-9">
-                        Pas encore inscrit?
+                        Déjà inscrit?
                     </span>
 
-                    <a href={{URL('/inscription')}} class="txt3">
-                        S'enregistrer
+                    <a href={{URL('/login')}} class="txt3">
+                        Se connecter
                     </a>
                 </div>
             </form>
@@ -128,7 +135,7 @@
     <!-- Breadcrumb Form Section Begin -->
 
     
-    <!-- Login Form Section End -->
+    <!-- Register Form Section End -->
 @endsection
 
 @section('script')

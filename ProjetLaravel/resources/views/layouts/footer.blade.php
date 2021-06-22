@@ -54,10 +54,10 @@
             <h2 class="ftco-heading-2">Aide</h2>
             <div class="d-flex">
                 <ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
-                  <li><a href="#" class="py-2 d-block">Informations pour la livraison</a></li>
-                  <li><a href="#" class="py-2 d-block">Returns &amp; Echanges</a></li>
+                  <li><a href="#" class="py-2 d-block">Shipping Information</a></li>
+                  <li><a href="#" class="py-2 d-block">Returns &amp; Exchange</a></li>
                   <li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
-                  <li><a href="#" class="py-2 d-block">Politique de confidentialité</a></li>
+                  <li><a href="#" class="py-2 d-block">Privacy Policy</a></li>
                 </ul>
                 <ul class="list-unstyled">
                   <li><a href="#" class="py-2 d-block">FAQs</a></li>
@@ -68,7 +68,7 @@
         </div>
         <div class="col-md">
           <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Questions?</h2>
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
               <div class="block-23 mb-3">
                 <ul>
                   <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
@@ -83,7 +83,7 @@
         <div class="col-md-12 text-center">
 
           <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous droits réservés | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>. Downloaded from <a href="https://themeslab.org/" target="_blank">Themeslab</a>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>. Downloaded from <a href="https://themeslab.org/" target="_blank">Themeslab</a>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                       </p>
         </div>
