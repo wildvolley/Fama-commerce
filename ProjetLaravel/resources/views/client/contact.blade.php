@@ -13,7 +13,7 @@
     <div class="container">
       <div class="row no-gutters slider-text align-items-center justify-content-center">
         <div class="col-md-9 ftco-animate text-center">
-            <p class="breadcrumbs"><span class="mr-2"><a href={{URL::to('/')}}>Accueil</a></span> <span>Nous joindre</span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href={{URL::to('/')}}>Accueil</a></span> <span>Contact us</span></p>
           <h1 class="mb-0 bread">Nous joindre</h1>
         </div>
       </div>
@@ -31,7 +31,7 @@
         </div>
         <div class="col-md-3 d-flex">
             <div class="info bg-white p-4">
-              <p><span>Téléphone</span> <a href="tel://4385307753">+ 1 438 530 7753</a></p>
+              <p><span>Phone:</span> <a href="tel://4385307753">+ 1 438 530 7753</a></p>
             </div>
         </div>
         <div class="col-md-3 d-flex">
@@ -41,7 +41,7 @@
         </div>
         <div class="col-md-3 d-flex">
             <div class="info bg-white p-4">
-              <p><span>site web</span> <a href="#">votresite.com</a></p>
+              <p><span>site web</span> <a href="#">yoursite.com</a></p>
             </div>
         </div>
       </div>

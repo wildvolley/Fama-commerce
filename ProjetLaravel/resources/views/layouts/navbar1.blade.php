@@ -32,17 +32,26 @@
           <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
           <div class="dropdown-menu" aria-labelledby="dropdown04">
-              <a class="dropdown-item" href={{URL::to('/shop')}}>Magasin</a> 
-              <a class="dropdown-item" href="wishlist.html">Liste de souhaits</a>
-            <a class="dropdown-item" href="product-single.html">Produit unique</a>
-            <a class="dropdown-item" href={{URL::to('/panier')}}>Panier</a>
-            <a class="dropdown-item" href={{URL::to('/paiement')}}>Passer à la caisse</a>
+            <a class="dropdown-item" href={{URL::to('/shop')}}>Magasin</a> 
+            <a class="dropdown-item" href="wishlist.html">Wishlist</a>
+            <a class="dropdown-item" href={{URL::to('/details_article')}}>Single Product</a>
+            <a class="dropdown-item" href={{URL::to('/panier')}}>Cart</a>
+            <a class="dropdown-item" href={{URL::to('/paiement')}}>Checkout</a>
           </div>
         </li>
           <li class="nav-item"><a href={{URL::to('/blog')}} class="nav-link">Blog</a></li>
           <li class="nav-item"><a href={{URL::to('/contact')}} class="nav-link">Contact</a></li>
-          <li class="nav-item cta cta-colored"><a href={{URL::to('/panier')}} class="nav-link"><span class="icon-shopping_cart"></span>[0]</a></li>
-          <li class="nav-item"><a href={{URL::to('/login')}} class="nav-link">Login</a></li>
+          <li class="nav-item cta cta-colored"><a href={{URL::to('/panier')}} class="nav-link"><span class="icon-shopping_cart">
+            </span>[{{Session::get('cart') ? Session::get('cart')->totalQte : 0}}]</a></li>
+          
+
+            @if (Session::has('client'))
+            <li class="nav-item"><a href={{URL::to('/logout')}} class="nav-link">Déconnecter</a></li> 
+            @else
+            <li class="nav-item"><a href={{URL::to('/login')}} class="nav-link">Se connecter</a></li> 
+            @endif
+
+
         </ul>
       </div>
     </div>
